@@ -2,7 +2,7 @@ import React from 'react'
 import vector from "../assets/vector1.png";
 export default function Banner() {
   return (
-    <div className="container mx-auto flex flex-col lg:flex-row gap-6 p-6 text-white">
+    <div className="lg:mx-12 mx-auto flex flex-col lg:flex-row gap-6 py-6 text-white">
       <div
         className="relative flex-1 rounded-xl overflow-hidden 
                       bg-gradient-to-br from-[#5B3FD3] via-[#6D4EDB] to-[#8B5CF6] 

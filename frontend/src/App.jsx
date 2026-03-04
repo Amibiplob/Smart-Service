@@ -1,4 +1,5 @@
 import Banner from "./pages/Banner";
+import Footer from "./pages/Footer";
 import Navbar from "./pages/Navbar";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <div className="">
       <Navbar />
-      <Banner/>
+      <Banner />
+      <Footer/>
     </div>
   );
 }
