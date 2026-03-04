@@ -27,7 +27,7 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             {navItem.map((item) => (
-              <li>
+              <li key={item}>
                 <a>{item}</a>
               </li>
             ))}
@@ -39,13 +39,13 @@ export default function Navbar() {
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             {navItem.map((item) => (
-              <li>
+              <li key={item}>
                 <a>{item}</a>
               </li>
             ))}
           </ul>
         </div>
-        <button class="btn text-white bg-gradient-to-br from-[#5B3FD3] via-[#6D4EDB] to-[#8B5CF6]">
+        <button className="btn text-white bg-gradient-to-br from-[#5B3FD3] via-[#6D4EDB] to-[#8B5CF6]">
           + New Ticket
         </button>
       </div>
