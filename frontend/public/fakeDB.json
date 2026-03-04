@@ -45,6 +45,33 @@
     "createdAt": "2026-03-05"
   },
   {
+    "id": 2012,
+    "title": "Billing Cycle Date Incorrect",
+    "description": "Customer reports that their billing cycle date changed unexpectedly.",
+    "customer": "Amelia Baker",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 2013,
+    "title": "Feature Access Denied",
+    "description": "Customer cannot access features included in their current subscription tier.",
+    "customer": "Logan Carter",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 2014,
+    "title": "Unable to Delete Account",
+    "description": "Customer is attempting to permanently delete their account but the option is not working.",
+    "customer": "Harper Evans",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
     "id": 2006,
     "title": "Refund Status Not Updated",
     "description": "Customer received a refund confirmation email but the dashboard still shows 'Pending'.",
