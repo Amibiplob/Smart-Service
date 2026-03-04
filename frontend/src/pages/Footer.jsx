@@ -54,9 +54,9 @@ export default function Footer() {
           </a>
         </nav>
       </footer>
-      <div class="lg:mx-12 mx-auto border-t border-slate-700 text-center">
-        <div class="py-6 ">
-          <p class="text-md text-white">
+      <div className="lg:mx-12 mx-auto border-t border-slate-700 text-center">
+        <div className="py-6 ">
+          <p className="text-md text-white">
             © 2025 Smart Service, Inc. All rights reserved.
           </p>
         </div>

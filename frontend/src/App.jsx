@@ -1,6 +1,7 @@
 import Banner from "./pages/Banner";
 import Footer from "./pages/Footer";
 import Navbar from "./pages/Navbar";
+import Tickets from "./pages/Tickets";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className="">
       <Navbar />
       <Banner />
+      <Tickets/>
       <Footer/>
     </div>
   );

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 2001,
+    "title": "Cannot Update Email Address",
+    "description": "Customer is trying to update their account email but receives a validation error.",
+    "customer": "Daniel Clark",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 2002,
+    "title": "Subscription Plan Not Reflecting Upgrade",
+    "description": "Customer upgraded to the Premium plan but their account still shows the Basic plan.",
+    "customer": "Mia Rodriguez",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 2003,
+    "title": "Error 500 on Checkout",
+    "description": "Customer encounters a 500 server error when attempting to complete checkout.",
+    "customer": "Ethan Walker",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 2004,
+    "title": "Delay in Order Shipment",
+    "description": "Customer reports that their order has not shipped even though the estimated shipping date has passed.",
+    "customer": "Ava Thompson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 2005,
+    "title": "App Notifications Not Working",
+    "description": "Customer is not receiving push notifications despite enabling them in settings.",
+    "customer": "Noah Martinez",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 2006,
+    "title": "Refund Status Not Updated",
+    "description": "Customer received a refund confirmation email but the dashboard still shows 'Pending'.",
+    "customer": "Sophia Lee",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 2007,
+    "title": "Unable to Apply Discount Code",
+    "description": "Customer’s discount code shows as invalid even though it hasn’t expired.",
+    "customer": "Lucas Harris",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 2008,
+    "title": "Profile Changes Not Saving",
+    "description": "Customer updates their profile information but changes revert after refreshing the page.",
+    "customer": "Isabella Young",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 2009,
+    "title": "Two-Factor Authentication Code Delayed",
+    "description": "Customer reports that 2FA codes are arriving 10–15 minutes late.",
+    "customer": "Benjamin King",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 2010,
+    "title": "Invoice Shows Incorrect Amount",
+    "description": "Customer states that their latest invoice reflects an incorrect total compared to their subscription plan.",
+    "customer": "Charlotte Scott",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  }
+]
