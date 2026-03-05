@@ -1,4 +1,4 @@
-import React, { use } from "react";
+import React, { use, useState } from "react";
 import { MdDateRange } from "react-icons/md";
 import { toast } from "react-toastify";
 export default function AllTickets({
@@ -7,19 +7,20 @@ export default function AllTickets({
   setInProgressTicket,
 }) {
   const data = use(fetchData);
-  //  console.log(inProgressTicket)
-  const addTicket = (title) => {
-    const newProgressTicket = [...inProgressTicket, title];
-    setInProgressTicket(newProgressTicket);
-    toast.success("Thank you adding Tickets Status.");
+  const [tickets, setTickets] = useState([...data]);
+
+  const addTicket = (ticket) => {
+    setInProgressTicket([...inProgressTicket, ticket.title]);
+    setTickets(tickets.filter((obj) => obj.id !== ticket.id));
+    toast.success("Thank you for adding Ticket Status.");
   };
   return (
     <div className="md:basis-3/4">
       <h1 className="text-2xl">Customer Tickets</h1>
       <div className="grid grid-cols-2 gap-7 py-7">
-        {data.map((ticket) => (
+        {tickets.map((ticket) => (
           <div
-            onClick={() => addTicket(ticket.title)}
+            onClick={() => addTicket(ticket)}
             key={ticket.id}
             className="bg-base-200 cursor-pointer p-6 rounded-xl shadow-sm flex flex-col justify-between"
           >
@@ -47,6 +48,9 @@ export default function AllTickets({
             </div>
           </div>
         ))}
+        {tickets.length === 0 && (
+          <p className="pt-2">No More Tickets.</p>
+        )}
       </div>
     </div>
   );

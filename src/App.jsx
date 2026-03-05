@@ -20,7 +20,6 @@ function App() {
         draggable
         pauseOnHover
         theme="light"
-        transition={"Bounce"}
       />
       <Navbar />
       <Banner inProgressTicket={inProgressTicket} totalResolve={totalResolve} />
