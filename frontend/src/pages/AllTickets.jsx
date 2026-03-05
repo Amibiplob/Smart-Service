@@ -1,5 +1,6 @@
 import React, { use } from "react";
 import { MdDateRange } from "react-icons/md";
+import { toast } from "react-toastify";
 export default function AllTickets({
   fetchData,
   inProgressTicket,
@@ -8,9 +9,9 @@ export default function AllTickets({
   const data = use(fetchData);
   //  console.log(inProgressTicket)
   const addTicket = (title) => {
-    // console.log(id);
     const newProgressTicket = [...inProgressTicket, title];
     setInProgressTicket(newProgressTicket);
+    toast.success("Thank you adding Tickets Status.");
   };
   return (
     <div className="md:basis-3/4">
