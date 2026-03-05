@@ -17,7 +17,7 @@ export default function AllTickets({
   return (
     <div className="md:basis-3/4">
       <h1 className="text-2xl">Customer Tickets</h1>
-      <div className="grid grid-cols-2 gap-7 py-7">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-7 py-7">
         {tickets.map((ticket) => (
           <div
             onClick={() => addTicket(ticket)}

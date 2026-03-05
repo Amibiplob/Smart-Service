@@ -8,7 +8,7 @@ function App() {
   const [inProgressTicket, setInProgressTicket] = useState([]);
   const [totalResolve, setTotalResolve] = useState([]);
   return (
-    <div className="">
+    <div className="mx-auto ml-2">
       <ToastContainer
         position="top-center"
         autoClose={5000}
