@@ -11,7 +11,7 @@ export default function Tickets({
   const fetchData = fetch("/fakeDB.json").then((res) => res.json());
   return (
     <div>
-      <div className="flex lg:mx-12 gap-5">
+      <div className="flex flex-col-reverse lg:flex-row lg:mx-12 gap-5">
         <Suspense fallback={<p>⌛Downloading...</p>}>
           <AllTickets
             fetchData={fetchData}
